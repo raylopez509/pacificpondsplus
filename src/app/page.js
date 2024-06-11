@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main>Pacific Ponds Plus</main>
+    <main>Home Page</main>
     // <main className={styles.main}>
     //   <div className={styles.description}>
     //     <p>
