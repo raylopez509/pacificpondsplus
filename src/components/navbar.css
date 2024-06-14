@@ -1,0 +1,11 @@
+.navbar {
+  display: flex;
+  background: lightblue;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a {
+  display: block;
+  padding: 10px;
+}

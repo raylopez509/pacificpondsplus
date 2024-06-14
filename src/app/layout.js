@@ -14,12 +14,14 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Header />
-      <Navbar />
       <head>
         <title>Pacific Ponds Plus</title>
       </head>
-      <body>{children}</body>
+      <body>
+        <Header />
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
