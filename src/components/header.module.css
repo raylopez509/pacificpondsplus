@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  background: red;
+  background: white;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -13,7 +13,7 @@
   height: auto;
 }
 
-.logo-container {
+.logocontainer {
   padding: 10px;
   width: 33%;
   text-align: left;

@@ -1,14 +1,14 @@
-import styles from "./header.css";
+import styles from "./header.module.css";
 
 const Header = () => {
   return (
     <>
-      <header className="header">
-        <div className="logo-container">
-          <img className="logo" src="pacificpondsplus.png"></img>
+      <header className={styles.header}>
+        <div className={styles.logocontainer}>
+          <img className={styles.logo} src="pacificpondsplus.png"></img>
         </div>
-        <div className="title">Pacific Ponds Plus</div>
-        <div className="phone">(714)123-4567</div>
+        <div className={styles.title}>Pacific Ponds Plus</div>
+        <div className={styles.phone}>(714)123-4567</div>
       </header>
     </>
   );

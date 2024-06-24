@@ -1,9 +1,13 @@
-import { Inter } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({
+  subsets: ["latin"],
+  display: "swap",
+  weight: "400",
+});
 
 // export const metadata = {
 //   title: "Pacific Ponds Plus",
@@ -13,7 +17,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={roboto.className}>
       <head>
         <title>Pacific Ponds Plus</title>
       </head>
