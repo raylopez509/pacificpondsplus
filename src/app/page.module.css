@@ -1,4 +1,10 @@
+.title {
+  display: flex;
+  align-items: center;
+}
+
 .images {
+  margin: 50px;
 }
 
 .pic1 {

@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={roboto.className}>
       <head>
+        <link rel="icon" href="/favicon.ico" />
         <title>Pacific Ponds Plus</title>
       </head>
       <body>

@@ -5,6 +5,10 @@ export default function Home() {
     <main>
       <div>If you need help cleaning your pond, we're the ones to help!</div>
       <div>Here's some work we have done:</div>
+      <div className={styles.title}>
+        <div>Before</div>
+        <div>After</div>
+      </div>
       <div className={styles.images}>
         <div className={styles.pic1}>
           <img className={styles.pic1before} src="pic1before.jpg"></img>
