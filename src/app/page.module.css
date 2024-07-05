@@ -1,36 +1,12 @@
-.title {
-  display: flex;
-  align-items: center;
+.imagecontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* justify-items: center; */
+  /* column-gap: 50px;
+  margin: 20vh 20vw; */
 }
 
-.images {
-  margin: 50px;
-}
-
-.pic1 {
-  display: flex;
-}
-
-.pic1before {
-  width: 50%;
-  height: auto;
-}
-
-.pic1after {
-  width: 50%;
-  height: auto;
-}
-
-.pic2 {
-  display: flex;
-}
-
-.pic2before {
-  width: 50%;
-  height: auto;
-}
-
-.pic2after {
-  width: 50%;
+.imagecontainer img {
+  width: 100%;
   height: auto;
 }
