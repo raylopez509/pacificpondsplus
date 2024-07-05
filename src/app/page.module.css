@@ -1,12 +1,12 @@
 .imagecontainer {
   display: grid;
-  grid-template-columns: auto auto;
-  /* justify-items: center; */
-  /* column-gap: 50px;
-  margin: 20vh 20vw; */
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  column-gap: 50px;
+  margin: 5vh 5vw;
 }
 
 .imagecontainer img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }

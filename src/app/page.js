@@ -16,10 +16,10 @@ export default function Home() {
       <div className={styles.imagecontainer}>
         <div>Before</div>
         <div>After</div>
-        <img className={styles.a1} src="pic1before.jpg"></img>
-        <img className={styles.a2} src="pic1after.jpg"></img>
-        <img className={styles.a3} src="pic2before.jpg"></img>
-        <img className={styles.a4} src="pic2after.jpg"></img>
+        <img src="pic1before.jpg"></img>
+        <img src="pic1after.jpg"></img>
+        <img src="pic2before.jpg"></img>
+        <img src="pic2after.jpg"></img>
       </div>
       <div>
         If you're interested, please give us a call! We'll be happy to help!
