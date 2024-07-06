@@ -8,7 +8,7 @@ const Header = () => {
           <img className={styles.logo} src="pacificpondsplus.png"></img>
         </div>
         <div className={styles.title}>Pacific Ponds Plus</div>
-        <div className={styles.phone}>(714)123-4567</div>
+        <div className={styles.phone}>(657)217-0895</div>
       </header>
     </>
   );
