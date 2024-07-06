@@ -2,6 +2,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
+import bg from "../../public/backgroundimage.jpg";
 
 const roboto = Roboto({
   subsets: ["latin"],
