@@ -5,34 +5,38 @@ export default function Home() {
     <main>
       <div className={styles.backgroundcontainer}>
         <div className={styles.textcontainer}>
-          <div className={styles.summarytext}>
+          <p className={styles.summarytext}>
             If you need help cleaning your pond, we're the ones to help!
-          </div>
+          </p>
           <div className={styles.servicelist}>
             We specialize in:
-            <li>Pools</li>
-            <li>Fountains</li>
-            <li>Koi Ponds</li>
+            <ul>
+              <li>Pools</li>
+              <li>Fountains</li>
+              <li>Koi Ponds</li>
+            </ul>
           </div>
           <div className={styles.locationlist}>
             We service the following:
-            <li>Los Angeles Region</li>
-            <li>Orange County Region</li>
+            <ul>
+              <li>Los Angeles Region</li>
+              <li>Orange County Region</li>
+            </ul>
           </div>
-          <div>Here's some work we have done:</div>
+          <p>Here's some work we have done:</p>
         </div>
         <div className={styles.imagecontainer}>
-          <div>Before</div>
-          <div>After</div>
+          <h2>Before</h2>
+          <h2>After</h2>
           <img src="pic1before.jpg"></img>
           <img src="pic1after.jpg"></img>
           <img src="pic2before.jpg"></img>
           <img src="pic2after.jpg"></img>
         </div>
-        <div className={styles.endingtextcontainer}>
+        <p className={styles.endingtextcontainer}>
           If you're interested, please give us a call for a free estimate! We'll
           be happy to help!
-        </div>
+        </p>
       </div>
     </main>
   );
