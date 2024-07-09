@@ -5,34 +5,34 @@ export default function Home() {
     <main>
       <div className={styles.backgroundcontainer}>
         <div className={styles.textcontainer}>
-          <div className={styles.summarytext}>
+          <p className={styles.summarytext}>
             If you need help cleaning your pond, we're the ones to help!
-          </div>
-          <div className={styles.servicelist}>
-            We specialize in:
+          </p>
+          <h2 className={styles.servicelist}>We specialize in:</h2>
+          <ul className={styles.list}>
             <li>Pools</li>
             <li>Fountains</li>
             <li>Koi Ponds</li>
-          </div>
-          <div className={styles.locationlist}>
-            We service the following:
+          </ul>
+          <h2 className={styles.locationlist}>We service the following:</h2>
+          <ul className={styles.list}>
             <li>Los Angeles Region</li>
             <li>Orange County Region</li>
-          </div>
-          <div>Here's some work we have done:</div>
+          </ul>
+          <h2>Here's some work we have done:</h2>
         </div>
-        <div className={styles.imagecontainer}>
-          <div>Before</div>
-          <div>After</div>
+        <section className={styles.imagecontainer}>
+          <h1>Before</h1>
+          <h1>After</h1>
           <img src="pic1before.jpg"></img>
           <img src="pic1after.jpg"></img>
           <img src="pic2before.jpg"></img>
           <img src="pic2after.jpg"></img>
-        </div>
-        <div className={styles.endingtextcontainer}>
+        </section>
+        <section className={styles.endingtextcontainer}>
           If you're interested, please give us a call for a free estimate! We'll
           be happy to help!
-        </div>
+        </section>
       </div>
     </main>
   );

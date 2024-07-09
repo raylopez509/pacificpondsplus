@@ -4,12 +4,15 @@
 }
 
 .servicelist {
-  list-style: none;
   margin: 5vh 5vw;
 }
 
-.locationlist {
+.list {
+  padding-left: 0;
   list-style: none;
+}
+
+.locationlist {
   margin: 5vh 5vw;
 }
 
