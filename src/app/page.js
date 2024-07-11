@@ -5,20 +5,33 @@ export default function Home() {
     <main>
       <div className={styles.backgroundcontainer}>
         <div className={styles.textcontainer}>
-          <p className={styles.summarytext}>
+          <h1 className={styles.summarytext}>
             If you need help cleaning your pond, we're the ones to help!
-          </p>
-          <h2 className={styles.servicelist}>We specialize in:</h2>
-          <ul className={styles.list}>
-            <li>Pools</li>
-            <li>Fountains</li>
-            <li>Koi Ponds</li>
-          </ul>
-          <h2 className={styles.locationlist}>We service the following:</h2>
-          <ul className={styles.list}>
-            <li>Los Angeles Region</li>
-            <li>Orange County Region</li>
-          </ul>
+          </h1>
+          <section className={styles.servicelistsection}>
+            <h1 className={styles.servicelistheading}>We specialize in:</h1>
+            <ul className={styles.list}>
+              <li>Pools</li>
+              <li>Fountains</li>
+              <li>Koi Ponds</li>
+            </ul>
+          </section>
+          <section className={styles.banner}>
+            <img src="banner1.jpg"></img>
+            <img src="banner2.jpg"></img>
+            <img src="banner3.jpg"></img>
+            <img src="banner4.jpg"></img>
+            <img src="banner5.jpg"></img>
+          </section>
+          <section className={styles.locationlistsection}>
+            <h1 className={styles.locationlistheading}>
+              We service the following:
+            </h1>
+            <ul className={styles.locationlist}>
+              <li>Los Angeles Region</li>
+              <li>Orange County Region</li>
+            </ul>
+          </section>
           <h2>Here's some work we have done:</h2>
         </div>
         <section className={styles.imagecontainer}>
@@ -29,10 +42,10 @@ export default function Home() {
           <img src="pic2before.jpg"></img>
           <img src="pic2after.jpg"></img>
         </section>
-        <section className={styles.endingtextcontainer}>
+        <h1 className={styles.endingtextcontainer}>
           If you're interested, please give us a call for a free estimate! We'll
           be happy to help!
-        </section>
+        </h1>
       </div>
     </main>
   );

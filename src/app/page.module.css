@@ -1,19 +1,61 @@
 .textcontainer {
   text-align: center;
+}
+
+.summarytext {
+  margin: 2em;
+  font-size: 3em;
+}
+
+.servicelistsection {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
   margin: 5vh 5vw;
 }
 
-.servicelist {
-  margin: 5vh 5vw;
+.servicelistheading {
+  text-align: center;
+  font-size: 3em;
 }
 
 .list {
+  text-align: center;
+  justify-items: center;
   padding-left: 0;
   list-style: none;
+  font-size: 2em;
+}
+
+.banner {
+  display: flex;
+}
+
+.banner img {
+  max-width: 20%;
+  height: auto;
+}
+
+.locationlistsection {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin: 5vh 5vw;
+}
+
+.locationlistheading {
+  text-align: center;
+  font-size: 3em;
 }
 
 .locationlist {
-  margin: 5vh 5vw;
+  text-align: center;
+  justify-items: center;
+  padding-left: 0;
+  list-style: none;
+  font-size: 2em;
 }
 
 .imagecontainer {
@@ -24,7 +66,7 @@
   margin: 5vh 5vw;
 }
 
-.imagecontainer div {
+.imagecontainer h1 {
   margin: 1em;
 }
 
@@ -36,5 +78,6 @@
 
 .endingtextcontainer {
   text-align: center;
-  margin: 5vh 5vw;
+  margin: 4em;
+  font-size: 2em;
 }
