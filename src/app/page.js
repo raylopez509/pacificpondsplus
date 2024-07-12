@@ -41,6 +41,8 @@ export default function Home() {
           <img src="pic1after.jpg"></img>
           <img src="pic2before.jpg"></img>
           <img src="pic2after.jpg"></img>
+          <img src="pic3before.jpg"></img>
+          <img src="pic3after.jpg"></img>
         </section>
         <h1 className={styles.endingtextcontainer}>
           If you're interested, please give us a call for a free estimate! We'll

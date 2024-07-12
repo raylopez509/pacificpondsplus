@@ -1,0 +1,9 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.image {
+  width: 50%;
+  height: auto;
+}
