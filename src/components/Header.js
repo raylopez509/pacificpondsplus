@@ -1,8 +1,9 @@
 import styles from "./header.module.css";
+import Navbar from "../components/Navbar";
 
 const Header = () => {
   return (
-    <>
+    <section className={styles.headercontainer}>
       <header className={styles.header}>
         <section className={styles.logocontainer}>
           <img className={styles.logo} src="pacificpondsplus.png"></img>
@@ -12,7 +13,8 @@ const Header = () => {
           (657)217-0895
         </a>
       </header>
-    </>
+      <Navbar />
+    </section>
   );
 };
 
