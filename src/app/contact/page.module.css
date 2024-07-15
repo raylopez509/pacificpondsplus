@@ -1,9 +1,29 @@
+.text {
+  text-align: center;
+}
+
 .contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .image {
+  place-self: center;
   width: 50%;
   height: auto;
 }
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+}
+
+/* .phone {
+  margin: 1em;
+}
+
+.email {
+  margin: 1em;
+} */
