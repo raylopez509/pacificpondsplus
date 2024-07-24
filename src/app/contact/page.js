@@ -28,7 +28,7 @@ export default function AboutPage() {
           <p>
             Follow us on Instagram!{" "}
             <a href="https://www.instagram.com/pacificpondsplus/">
-              @PacificPondsPlus
+              <img className={styles.icon} src="instagram_icon.png"></img>
             </a>
           </p>
         </section>
